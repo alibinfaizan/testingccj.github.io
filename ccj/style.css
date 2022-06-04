@@ -81,25 +81,21 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid black;
 }
 
 .tagline {
 	width: 55vw;
 	padding: 2vw;
-	border: 1px solid black;
 }
 
 .tagline h1 {
 	font-size: 4.2vw;
 	font-family: sans-serif;
 	margin-bottom: 0.5vw;
-	border: 2px solid black;
 }
 
 .tagline div {
 	width: 80%;
-	border: 2px solid black;
 	padding: 0vw 4vw 0vw 0vw;
 }
 
@@ -131,7 +127,6 @@ header {
 	align-items: center;
 	width: 45vw;
 	padding: 1.5vw;
-	border: 1px solid black;
 }
 
 .illustrate img {
