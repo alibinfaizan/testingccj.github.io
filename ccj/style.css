@@ -15,9 +15,20 @@ section {
 
 }
 
+.subheading {
+	width: 30vw;
+	font-family: sans-serif;
+	font-size: 4vw;
+	text-align: center;
+	color: #004aad;
+	margin: 0vw auto 5vw auto;
+	border: 2px solid #004aad;
+	border-radius: 5px;
+}
+
 hr {
 	margin: auto;
-	width: 60vw;
+	width: 60%;
 }
 
 header {
@@ -128,15 +139,67 @@ header {
 	width: 100%;
 }
 
-.team h2 {
-	width: 30vw;
-	font-family: sans-serif;
-	font-size: 4vw;
-	text-align: center;
-	color: #004aad;
-	margin: 0vw auto 5vw auto;
-	border: 2px solid #004aad;
-	border-radius: 5px;
+.resources {
+}
+
+.resource-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: #eee;
+	padding: 2vw 0;
+	border-radius: 10px;
+}
+
+.resource {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 35vw;
+	padding: 2vw 0;
+	margin: 2vw 0;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px 2px #444;
+}
+
+.resource img {
+	width: 10vw;
+}
+
+.resource-btn-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.resource-btn-container h3 {
+	font-size: 3.5vw;
+	font-family: 'Jost', sans-serif;
+	color: #444;
+}
+
+.resource-btn {
+	font-size: 2vw;
+	font-weight: 600;
+	padding: 1vw;
+	margin: 1.5vw 0;
+	cursor: pointer;
+	background-color: #fff;
+	color: #28965a;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #28965a;
+	border-radius: 10px;
+}
+
+.resource-btn:hover {
+	background-color: #28965a;
+	color: #fff;
+	border-radius: 10px;
+	border-color: #28965a;
 }
 
 .member {
@@ -168,23 +231,44 @@ header {
 	margin: 1vw 0vw;
 }
 
-.mail-btn {
-	text-align: center;
-	margin: 3vw 0;
-}
-
-.mail-btn a button {
-	font-size: 2.5vw;
-	padding: 1.5vw;
-	border: none;
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	margin: 4vw auto;
+	border: 2px solid #004aad;
+	padding: 2.5vw 0;
 	border-radius: 10px;
-	background-color: #004aad;
-	color: #ccc;
-	cursor: pointer;
 }
 
-.mail-us {
+.contact-card {
+	text-align: center;
+	padding: 3vw 4vw;
+	background-color: #004aad;
 	color: #fff;
+}
+
+.contact-card h5 {
+	font-size: 3vw;
+	margin-bottom: 1vw;
+	font-family: cursive;
+}
+
+.contact p {
+	font-size: 2.5vw;
+	margin-top: 1vw;
+	font-family: monospace;
+}
+
+.card-one {
+	border-right: 1px solid;
+	border-radius: 10px 0px 0px 10px; 
+}
+
+.card-two {
+	border-left: 1px solid;
+	border-radius: 0px 10px 10px 0px;
 }
 
 footer {
