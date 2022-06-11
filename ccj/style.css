@@ -57,19 +57,22 @@ header {
 }
 
 .nav-links a {
+	width: 10vw;
+	text-align: center;
 	display: inline-block;
 	font-size: 2.5vw;
 	margin: 0vw 1vw;
-	padding: 2vw;
+	padding: 1vw 0;
 	text-decoration: none;
-	border-radius: 50%;
+	border-radius: 1vw;
 }
 
 .nav-links button {
+	width: 10vw;
 	font-size: 2.5vw;
-	margin: 0vw 1vw;
-	padding: 2vw;
-	border-radius: 50%;
+	margin: 0vw auto;
+	padding: 1vw 0;
+	border-radius: 1vw;
 	border: none;
 	background-color: black;
 	color: white;
