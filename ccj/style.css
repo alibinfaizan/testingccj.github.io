@@ -58,12 +58,21 @@ header {
 
 .nav-links a {
 	display: inline-block;
-	font-size: 2.2vw;
-	margin: 0vw 1.5vw;
-	padding: 1vw 2vw;
+	font-size: 2.5vw;
+	margin: 0vw 1vw;
+	padding: 2vw;
 	text-decoration: none;
-	border: 1px solid;
-	border-radius: 5px;
+	border-radius: 50%;
+}
+
+.nav-links button {
+	font-size: 2.5vw;
+	margin: 0vw 1vw;
+	padding: 2vw;
+	border-radius: 50%;
+	border: none;
+	background-color: black;
+	color: white;
 }
 
 #instagram-link {
@@ -118,7 +127,7 @@ header {
 	color: white;
 	cursor: pointer;
 	border-color: green;
-	border-radius: 20px;
+	border-radius: 1vw;
 	outline: none;
 }
 
@@ -137,10 +146,9 @@ header {
 
 .illustrate img {
 	width: 100%;
+	border-radius: 50%;
 }
 
-.resources {
-}
 
 .resource-container {
 	display: flex;
@@ -161,7 +169,7 @@ header {
 	padding: 2vw 0;
 	margin: 2vw 0;
 	background-color: #fff;
-	border-radius: 20px;
+	border-radius: 2vw;
 	box-shadow: 2px 2px 10px 2px #444;
 }
 
@@ -192,18 +200,18 @@ header {
 	outline: none;
 	border: none;
 	border-bottom: 2px solid #28965a;
-	border-radius: 10px;
+	border-radius: 1vw;
 }
 
 .resource-btn:hover {
 	background-color: #28965a;
 	color: #fff;
 	border-radius: 10px;
-	border-color: #28965a;
+	border-color: lightgreen;
 }
 
 .member {
-	width: 20vw; 
+	width: 22.25vw; 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -219,7 +227,7 @@ header {
 .team-members {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 	
@@ -252,7 +260,7 @@ header {
 .contact-card h5 {
 	font-size: 3vw;
 	margin-bottom: 1vw;
-	font-family: cursive;
+	font-family: monospace;
 }
 
 .contact p {
@@ -286,4 +294,38 @@ footer p {
 
 .footer-text {
 	color: #aaa;
+}
+
+
+
+/* Dark Mode Styles */
+
+#theme-button {
+	cursor: pointer;
+}
+
+
+.dark {
+	background-color: #000;
+	color: #fff;
+}
+
+.tagline-dark h1 {
+	color: #aaa;
+}
+
+.resource-container-dark {
+	background-color: #222;
+}
+
+.resource-container-dark .resource {
+	box-shadow: none;
+}
+
+.team-members-dark .member img {
+	border: 1px solid white;
+}
+
+.team-members-dark .member p {
+	color: white;
 }
