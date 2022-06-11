@@ -9,6 +9,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 section {
 	max-width: 90vw;
 	margin: 4vw auto;
