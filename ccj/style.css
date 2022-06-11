@@ -209,7 +209,7 @@ header {
 .resource-btn:hover {
 	background-color: #28965a;
 	color: #fff;
-	border-radius: 10px;
+	border-radius: 1vw;
 	border-color: lightgreen;
 }
 
