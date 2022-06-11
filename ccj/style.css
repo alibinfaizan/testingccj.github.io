@@ -13,6 +13,10 @@ body {
 	overflow-x: hidden;
 }
 
+.aos-init:not(.aos-animate):after {
+	position: fixed;
+}
+
 section {
 	max-width: 90vw;
 	margin: 4vw auto;
