@@ -13,10 +13,6 @@ body {
 	overflow-x: hidden;
 }
 
-.aos-init:not(.aos-animate):after {
-	position: fixed;
-}
-
 section {
 	max-width: 90vw;
 	margin: 4vw auto;
@@ -64,10 +60,15 @@ header {
 	font-family: 'Righteous', cursive;
 }
 
+.nav-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .nav-links a {
 	width: 10vw;
 	text-align: center;
-	display: inline-block;
 	font-size: 2.5vw;
 	margin: 0vw 1vw;
 	padding: 1vw 0;
@@ -76,9 +77,10 @@ header {
 }
 
 .nav-links button {
+	text-align: center;
 	width: 10vw;
 	font-size: 2.5vw;
-	margin: 0vw auto;
+	margin: 0vw 1vw;
 	padding: 1vw 0;
 	border-radius: 1vw;
 	border: none;
@@ -88,19 +90,12 @@ header {
 
 #instagram-link {
 	color: #fff;
-	background-color: #c13584;
+	background-image: linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
 }
-#instagram-link:hover {
-	background-color: #c13584;
-	color: #fff;
-}
+
 #linkedin-link {
 	color: #fff;
 	background-color: #0077b5;
-}
-#linkedin-link:hover {
-	background-color: #0077b5;
-	color: #fff;
 }
 
 .tagline-container {
