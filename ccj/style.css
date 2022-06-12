@@ -339,3 +339,7 @@ footer p {
 .team-members-dark .member p {
 	color: white;
 }
+
+.contact-dark .contact-card {
+	border-color: black;
+}
