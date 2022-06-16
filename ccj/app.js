@@ -5,6 +5,14 @@ const resourceContainer = document.querySelector('.resource-container');
 const teamMembers = document.querySelector('.team-members');
 const contact = document.querySelector('.contact');
 
+const buttons = document.querySelectorAll(".resource-btn");
+
+for (var i = 0; i < buttons.length; i++) {
+	buttons[i].addEventListener('click', () => {
+		alert("Courses will be available Soon!");
+	})
+}
+
 const getDarkMode = localStorage.getItem("darkMode");
 
 const enableDarkMode = () => {
